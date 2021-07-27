@@ -1,0 +1,12 @@
+.main-header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  justify-self: stretch;
+}
+
+.main-footer {
+  grid-area: footer;
+}
