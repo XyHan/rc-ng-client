@@ -12,6 +12,10 @@ header {
     color: black;
     text-transform: uppercase;
     align-self: center;
+    @media screen and (max-width: 600px){
+      width: 100%;
+      text-align: center;
+    }
     b {
       font-weight: 900;
     }
@@ -19,6 +23,9 @@ header {
   nav {
     display: inline-block;
     align-self: center;
+    @media screen and (max-width: 600px){
+      display: none;
+    }
     ul {
       margin: 0;
       li {
