@@ -7,9 +7,9 @@ import { NavLinks, NavValueObject } from '../../../infrastructure/value-object/n
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  private _forname: string;
-  private _lastname: string;
-  private _navLinks: NavLinks[];
+  private readonly _forname: string;
+  private readonly _lastname: string;
+  private readonly _navLinks: NavLinks[];
 
   constructor() {
     this._forname = 'Robin';
@@ -21,23 +21,11 @@ export class HeaderComponent {
     return this._forname;
   }
 
-  set forname(value: string) {
-    this._forname = value;
-  }
-
   get lastname(): string {
     return this._lastname;
   }
 
-  set lastname(value: string) {
-    this._lastname = value;
-  }
-
   get navLinks(): NavLinks[] {
     return this._navLinks;
-  }
-
-  set navLinks(value: NavLinks[]) {
-    this._navLinks = value;
   }
 }

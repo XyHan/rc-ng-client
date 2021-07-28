@@ -8,9 +8,21 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
 .main-wrapper {
   display: grid;
-  grid-template-rows: 5vh 90vh 5vh;
+  grid-template-rows: 5vh 89vh 5vh;
+  @media screen and (max-width: 600px) {
+    grid-template-rows: 5vh 88vh 6vh;
+  }
   grid-template-areas:
     "header"
     "main"

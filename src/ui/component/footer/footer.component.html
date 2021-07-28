@@ -1,3 +1,12 @@
 <footer>
-    <span>FOOTER</span>
+    <span>copyright © {{ currentYear }}</span>
+    <nav>
+        <ul>
+            <li *ngFor="let navLink of navLinks">
+                <a href="{{ navLink.path }}">
+                    <span class="material-icons">{{ navLink.icon }}</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </footer>

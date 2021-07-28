@@ -7,7 +7,6 @@ header {
   height: 5vh;
   a {
     display: inline-block;
-    text-decoration: none;
     font-size: 1.3em;
     color: black;
     text-transform: uppercase;
@@ -29,8 +28,6 @@ header {
     ul {
       margin: 0;
       li {
-        display: inline-block;
-        list-style-type: none;
         &:hover {
           font-weight: 500;
         }
