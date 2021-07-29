@@ -12,7 +12,7 @@ export class NavValueObject {
       icon: 'psychology',
     },
     {
-      path: '',
+      path: 'jobs',
       label: 'Jobs',
       icon: 'work',
     },
