@@ -8,13 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure/routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure/value-object/nav.value-object.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/value-object/nav.value-object.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/component/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/component/footer/footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/component/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/component/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/layout/main/main.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/layout/main/main.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/page/index/index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/page/index/index.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/page/index/index.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/page/index/index.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/page/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/page/index/index.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/page/page.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/page/page.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/techno/techno.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/page/techno/techno.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ui/page/techno" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ui/page/contact" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui/page/contact" />
       <recent name="$PROJECT_DIR$/src/ui/page/techno" />
       <recent name="$PROJECT_DIR$/src/ui/component/footer" />
       <recent name="$PROJECT_DIR$/src/ui/component" />
       <recent name="$PROJECT_DIR$/src/ui/component/header" />
-      <recent name="$PROJECT_DIR$/src/ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ui" />

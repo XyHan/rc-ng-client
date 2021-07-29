@@ -22,7 +22,7 @@ export class NavValueObject {
       icon: 'school',
     },
     {
-      path: '',
+      path: 'contact',
       label: 'Contact',
       icon: 'contact_page',
     },
