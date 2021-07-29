@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {NavLinks, NavValueObject} from "../../../infrastructure/value-object/nav.value-object";
 
 @Component({
   selector: 'app-index',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./index.component.scss']
 })
 export class IndexComponent {
-  title = 'cv';
+  private readonly _navLinks: NavLinks[];
+
+  constructor() {
+    this._navLinks = NavValueObject.navLinks
+  }
+
+  get navLinks(): NavLinks[] {
+    return this._navLinks;
+  }
 }
