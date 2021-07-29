@@ -17,7 +17,7 @@ export class NavValueObject {
       icon: 'work',
     },
     {
-      path: '',
+      path: 'education',
       label: 'Education',
       icon: 'school',
     },
