@@ -1,6 +1,6 @@
 header {
   padding: 0 20px;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,9 +28,7 @@ header {
     ul {
       margin: 0;
       li {
-        &:hover {
-          font-weight: 500;
-        }
+        font-weight: 300;
         a {
           text-transform: capitalize;
           padding: 0 0.5vw;

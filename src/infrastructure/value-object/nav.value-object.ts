@@ -14,7 +14,7 @@ export class NavValueObject {
     {
       path: '',
       label: 'Jobs',
-      icon: 'work_outline',
+      icon: 'work',
     },
     {
       path: '',
