@@ -1,12 +1,12 @@
 <header>
-    <a href="">
+    <a routerLink="">
         <span>{{ forname }}</span>
         <b>{{ lastname }}</b>
     </a>
     <nav>
         <ul>
             <li *ngFor="let navLink of navLinks">
-                <a href="{{ navLink.path }}">{{ navLink.label }}</a>
+                <a routerLink="{{ navLink.path }}">{{ navLink.label }}</a>
             </li>
         </ul>
     </nav>

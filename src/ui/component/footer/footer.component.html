@@ -3,7 +3,7 @@
     <nav>
         <ul>
             <li *ngFor="let navLink of navLinks">
-                <a href="{{ navLink.path }}">
+                <a routerLink="{{ navLink.path }}">
                     <span class="material-icons">{{ navLink.icon }}</span>
                 </a>
             </li>

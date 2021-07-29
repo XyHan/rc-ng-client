@@ -7,7 +7,7 @@ export interface NavLinks {
 export class NavValueObject {
   public static readonly navLinks: NavLinks[] = [
     {
-      path: '',
+      path: 'technos',
       label: 'Technos',
       icon: 'psychology',
     },

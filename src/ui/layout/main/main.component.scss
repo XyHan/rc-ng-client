@@ -5,7 +5,11 @@
 main {
   grid-area: main;
   justify-self: stretch;
-  padding: 0 2vw;
+  height: 88vh;
+  width: 100vw;
+  @media all and (max-width: 600px) {
+    overflow: auto;
+  }
 }
 
 .main-footer {
