@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b30157d1-7d91-4776-9094-1306f4a5ca16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/page/page.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/page/page.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/config/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/config/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/infra.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/infra.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/routing/routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/component/component.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/layout/layout.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/page.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ui.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ui.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ui/page/education" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ui/page" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -40,18 +47,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui/page" />
+      <recent name="$PROJECT_DIR$/src/ui/layout" />
       <recent name="$PROJECT_DIR$/src/ui/page/education" />
       <recent name="$PROJECT_DIR$/src/ui/page/cv" />
       <recent name="$PROJECT_DIR$/src/ui/page/contact" />
-      <recent name="$PROJECT_DIR$/src/ui/page/techno" />
-      <recent name="$PROJECT_DIR$/src/ui/component/footer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/infrastructure/routing" />
+      <recent name="$PROJECT_DIR$/src/infrastructure/config" />
+      <recent name="$PROJECT_DIR$/src/infrastructure" />
       <recent name="$PROJECT_DIR$/src/ui" />
       <recent name="$PROJECT_DIR$/src/ui/layout/main" />
-      <recent name="$PROJECT_DIR$/src/ui/page/index" />
-      <recent name="$PROJECT_DIR$/src/infrastructure" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">

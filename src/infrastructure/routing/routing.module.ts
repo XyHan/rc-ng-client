@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { IndexComponent } from '../ui/page/index/index.component';
-import { TechnoComponent } from '../ui/page/techno/techno.component';
-import { ContactComponent } from '../ui/page/contact/contact.component';
-import { JobComponent } from '../ui/page/job/job.component';
-import { EducationComponent } from '../ui/page/education/education.component';
+import { IndexComponent } from '../../ui/page/index/index.component';
+import { TechnoComponent } from '../../ui/page/techno/techno.component';
+import { ContactComponent } from '../../ui/page/contact/contact.component';
+import { JobComponent } from '../../ui/page/job/job.component';
+import { EducationComponent } from '../../ui/page/education/education.component';
 
 const routes: Routes = [
   {
