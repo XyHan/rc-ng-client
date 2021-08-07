@@ -1,3 +1,14 @@
 <section>
-    <h1>TECHNOS</h1>
+    <ul>
+        <li *ngFor="let techno of technos">
+            <div>
+                <img src="{{ techno.logo }}" alt="{{ techno.name }} logo" width="50" height="50" />
+                <span>{{ techno.name }}</span>
+                <span style="margin-left: 20px">rating: {{ techno.rating }}</span>
+            </div>
+            <div>
+                <p>{{ techno.description }}</p>
+            </div>
+        </li>
+    </ul>
 </section>

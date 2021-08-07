@@ -14,16 +14,10 @@ describe('TechnoComponent', () => {
     }).compileComponents();
   });
 
-  it('should create the app', () => {
+  it('should create the techno component', () => {
     const fixture = TestBed.createComponent(TechnoComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
-  });
-
-  it(`should have as title 'cv'`, () => {
-    const fixture = TestBed.createComponent(TechnoComponent);
-    const app = fixture.componentInstance;
-    expect(app.navLinks[0].label).toEqual('Technos');
   });
 
   it('should render title', () => {

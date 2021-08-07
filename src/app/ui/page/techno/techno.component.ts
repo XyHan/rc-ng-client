@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { NavLinks, NavValueObject } from '../../../infrastructure/value-object/nav.value-object';
+import { Component, Inject } from '@angular/core';
+import { TechnoInterface} from '../../../domain/techno/model/techno.model';
+import { TechnoService, TechnoServiceInterface } from '../../../infrastructure/techno/service/techno.service';
 
 @Component({
   selector: 'app-techno-page',
@@ -7,13 +8,15 @@ import { NavLinks, NavValueObject } from '../../../infrastructure/value-object/n
   styleUrls: ['./techno.component.scss']
 })
 export class TechnoComponent {
-  private readonly _navLinks: NavLinks[];
+  private _technos: TechnoInterface[];
 
-  constructor() {
-    this._navLinks = NavValueObject.navLinks
+  constructor(
+    @Inject(TechnoService) private readonly _technoService: TechnoServiceInterface
+  ) {
+    this._technoService.listAllTechnos().subscribe(technos => this._technos = technos);
   }
 
-  get navLinks(): NavLinks[] {
-    return this._navLinks;
+  get technos(): TechnoInterface[] {
+    return this._technos;
   }
 }
