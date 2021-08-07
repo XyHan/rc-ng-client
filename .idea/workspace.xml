@@ -5,16 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30157d1-7d91-4776-9094-1306f4a5ca16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/config/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/config/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/infra.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/infra.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/routing/routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/config/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/infrastructure/config/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/config/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/infrastructure/config/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/infra.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/infrastructure/infra.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/routing/routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/infrastructure/routing/routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/value-object/nav.value-object.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/infrastructure/value-object/nav.value-object.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/component/component.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/layout/layout.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/page/page.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ui.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ui.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/component/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/component/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/component/footer/footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/component/footer/footer.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/component/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/component/footer/footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/component/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/component/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/component/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/component/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/component/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/component/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/component/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/component/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/layout/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/layout/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/layout/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/layout/main/main.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/layout/main/main.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/layout/main/main.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/layout/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/layout/main/main.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/contact/contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/contact/contact.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/contact/contact.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/contact/contact.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/contact/contact.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/contact/contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/education/education.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/education/education.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/education/education.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/education/education.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/education/education.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/education/education.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/education/education.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/education/education.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/index/index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/index/index.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/index/index.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/index/index.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/index/index.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/index/index.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/index/index.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/job/job.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/job/job.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/job/job.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/job/job.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/job/job.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/job/job.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/job/job.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/job/job.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/techno/techno.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/techno/techno.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/techno/techno.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/page/techno/techno.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ui.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +84,11 @@
       <recent name="$PROJECT_DIR$/src/ui/page/contact" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/infrastructure/routing" />
       <recent name="$PROJECT_DIR$/src/infrastructure/config" />
       <recent name="$PROJECT_DIR$/src/infrastructure" />
-      <recent name="$PROJECT_DIR$/src/ui" />
-      <recent name="$PROJECT_DIR$/src/ui/layout/main" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
