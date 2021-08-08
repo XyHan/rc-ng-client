@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 
 export interface TechnoServiceInterface {
   listAllTechnos(): Observable<TechnoInterface[]>;
+  addTechno(): void;
 }
 
 @Injectable()
@@ -15,5 +16,9 @@ export class TechnoService implements TechnoServiceInterface {
 
   listAllTechnos(): Observable<TechnoInterface[]> {
     return this._technoRepository.findAll();
+  }
+
+  addTechno(): void {
+    return this._technoRepository.add();
   }
 }

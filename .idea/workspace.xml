@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b30157d1-7d91-4776-9094-1306f4a5ca16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/infrastructure/techno/repository/techno.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/infrastructure/techno/repository/techno.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/infrastructure/techno/service/techno.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/infrastructure/techno/service/techno.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/infrastructure/value-object/nav.value-object.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/infrastructure/value-object/nav.value-object.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/component/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/component/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ui/page/techno/techno.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/infrastructure/techno" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/ui/component" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,11 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/ui/component" />
       <recent name="$PROJECT_DIR$/src/app/infrastructure/techno" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/ui/page" />
       <recent name="$PROJECT_DIR$/src/ui/layout" />
-      <recent name="$PROJECT_DIR$/src/ui/page/education" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app" />
